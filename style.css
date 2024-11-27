@@ -22,13 +22,15 @@ body > h2 {
 }
 
 .container {
-  width: 390px;
+  width: 310px;
+  padding-bottom: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  border-radius: 6px;
+  border-radius: 10px;
   overflow: hidden;
+  background-color: #000;
 }
 .display {
-  height: 120px;
+  height: 95px;
 }
 .display input {
   height: 100%;
@@ -45,16 +47,15 @@ body > h2 {
 }
 
 .actions {
-  background-color: #000;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   padding: 10px 20px;
 }
 .actions button {
-  font-size: 40px;
-  height: 80px;
-  width: 80px;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
   cursor: pointer;
   color: #fff;
