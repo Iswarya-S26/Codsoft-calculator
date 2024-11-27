@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c8c1c0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  height: 500px;
+  width: 390px;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.display {
+  height: 120px;
+}
+.display input {
+  height: 100%;
+  width: 100%;
+  display: block;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: right;
+  padding: 10px 20px;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  border: none;
+}
+
+.actions {
+  background-color: #000;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 10px 20px;
+}
+.actions button {
+  font-size: 40px;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+}
+.actions button:nth-child(-n + 4) {
+  background-color: #ff9404;
+}
+.actions button:nth-child(n + 5):nth-child(-n + 15) {
+  background-color: #363636;
+}
+.actions button:nth-last-child(-n + 2) {
+  background-color: #ff9404;
+}
+
+/*hover btns*/
+.actions button:nth-child(n + 5):nth-child(-n + 15):hover {
+  background-color: #625f5f;
+}
+.actions button:nth-last-child(-n + 2):hover,
+.actions button:nth-child(-n + 4):hover {
+  background-color: #e1ab5f;
+}
