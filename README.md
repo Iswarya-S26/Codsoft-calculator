@@ -20,9 +20,15 @@ Designed to make quick calculations easy and fun! 🎉
 
 ---
 
-## 📸 Preview  
-### **Live Link:** [Simple Calculator Live Demo](#) 🌐  
-![Calculator Demo](calculator-sample.gif)  
+## 📷 **Preview**
+
+<div>
+<img src="./assets/calculator-pic.png" alt="To-Do App Screenshot" width="300" style="margin: 0 auto;" />
+</div>
+
+## 🚀 Live Demo
+
+Check out the live version of the app here: [Live Demo](https://iswarya-s26.github.io/Codsoft-calculator/)
 
 ---
 
